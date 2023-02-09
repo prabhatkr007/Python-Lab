@@ -2,7 +2,7 @@
 # III. (Reverse number) Write a program that prompts the user to enter a four-digit integer 
 # and display the number in reverse order. 
 
-num = 1234
+num = int(input("Enter four-digit integer : "))
 reversed_num = 0
 
 while num != 0:
